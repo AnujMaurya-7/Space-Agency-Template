@@ -1,0 +1,109 @@
+*,
+button {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+:root {
+  --primary: #330163;
+  --secondary: #232b28;
+  --ternary: #6c6c6c;
+  --danger: #ff1f1f;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #2d333f;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line-height {
+  line-height: 1.5;
+}
+
+.secondary-heading {
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
+}
+
+.primary-heading {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.third-heading {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.btn {
+  color: var(--heaven);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-primary {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  color: var(--heaven);
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--danger);
+}
+
+.btn-secondary {
+  padding: 0.8rem 1rem;
+
+  background-color: var(--danger);
+  color: var(--heaven);
+}
+.btn-secondary:hover {
+  background: var(--heaven);
+  color: var(--secondary);
+}
+
+.sm-btn {
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  background-color: var(--primary);
+  color: var(--heaven);
+}
+
+.sm-btn:hover {
+  background-color: var(--danger);
+}
+
+.opacity {
+  opacity: 0.9;
+  cursor: pointer;
+}

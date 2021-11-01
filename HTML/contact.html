@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/utils-style.css" />
+    <link rel="stylesheet" href="/CSS/slick.css" />
+    <link rel="stylesheet" href="/CSS/slick-theme.css" />
+    <link rel="stylesheet" href="/CSS/stylemedia.css" />
+    <script
+      src="https://kit.fontawesome.com/f012c4f154.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Space Agency</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-menu flex justify-around align-center">
+        <div class="main-logo">
+          <a href="#"> <i class="fas fa-rocket"></i> SPACE PROSPECTION</a>
+        </div>
+        <div class="link-list-wrap">
+          <div class="hamburger">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="link-list flex justify-around">
+            <li><a class="active" href="/HTML/index.html">HOME</a></li>
+            <li><a href="/HTML/about.html">ABOUT</a></li>
+            <li><a href="/HTML/projects.html">PROJECTS</a></li>
+            <li><a href="/HTML/blog.html">BLOG</a></li>
+            <li><a href="/HTML/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="contact flex justify-center flex-wrap">
+      <div class="contact-wrap contact-form">
+        <h1 class="primary-heading">Get in Touch</h1>
+        <form action="">
+          <div class="input-label-group input-inline">
+            <label for="first-name" class="label">First Name</label>
+            <div class="input-wrap">
+              <input
+                class="input-box"
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="First Name"
+                required
+              />
+            </div>
+          </div>
+          <div class="input-label-group input-inline last-n-group">
+            <label for="last-name" class="label">Last Name</label>
+            <div class="input-wrap">
+              <input
+                class="input-box"
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-label-group input-block">
+            <label for="email" class="label">Email</label>
+            <div class="input-wrap email-wrap">
+              <input
+                type="email"
+                class="input-box email-wrap"
+                id="email"
+                name="email"
+                placeholder="@gmail.com"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-label-group input-block">
+            <label for="message" class="label">Message</label>
+            <div class="input-wrap textarea-wrap">
+              <textarea
+                class="input-box textarea-box"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+          </div>
+
+          <button class="btn btn-primary">Send</button>
+        </form>
+      </div>
+
+      <aside class="contact-wrap address-wrap">
+        <h1 class="primary-heading">Contact Us</h1>
+        <div class="phone contact-box flex align-center">
+          <i class="fas fa-phone"></i>
+          <div class="phone-number">
+            <strong> Contact No: </strong>
+            (+91) 123-456-789
+          </div>
+        </div>
+        <div class="Address contact-box flex align-center">
+          <i class="fas fa-address-card"></i>
+          <div class="Address-box">
+            <strong> Address: </strong>
+            xyz ltd. 123/B-60, New York, USA
+          </div>
+        </div>
+        <div class="Working-hours contact-box flex align-center">
+          <i class="far fa-clock"></i>
+          <div class="timing">
+            <strong>Working-Hours:</strong>
+            10:00 PM to 12:00 AM
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059405222!2d-74.25986585394212!3d40.69714941842808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1634808147999!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-info-wrap flex flex-wrap">
+        <div class="info-box about text-center">
+          <h3 class="third-heading">About</h3>
+          <hr />
+          <p class="line-height">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, eos?
+            Pariatur commodi hic eligendi similique laborum sint aut quibusdam
+            quasi?
+          </p>
+          <button class="btn sm-btn">Read More</button>
+        </div>
+        <div class="info-box quick-links text-center">
+          <h3 class="third-heading">Quick Links</h3>
+          <hr />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="info-box social-media text-center">
+          <h3 class="third-heading">Follow Us</h3>
+          <hr />
+          <div class="media-icon flex">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+              Facebook
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+              Linkedin
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+            <a href="#">
+              <i class="fab fa-google-plus-g"></i>
+              Google
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+              Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="copyright">
+      <p class="text-center">
+        Copyright © 2020 by <a href="#">SPACE PROSPECTION</a> | All rights are
+        reserved
+      </p>
+    </footer>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      defer
+    ></script>
+    <script src="/JS/slick.min.js" defer></script>
+    <script src="/JS/app.js " defer></script>
+  </body>
+</html>
